@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  div .breadcrumb {
+    padding: 1.6rem 0 0 1.6rem;
+  }
+}

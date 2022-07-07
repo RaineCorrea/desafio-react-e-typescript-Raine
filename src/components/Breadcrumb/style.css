@@ -1,0 +1,22 @@
+.breadcrumb {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.breadcrumb-img-home {
+  width: 16px;
+  height: 16px;
+  padding: 0 0.8rem 0 0;
+}
+
+.breadcrumb-img-arrow {
+  width: 8px;
+  height: 8px;
+  padding: 0 0.8rem 0 0;
+}
+
+.breadcrumb-link {
+  font-family: var(--main-font);
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--color-gray-200);
+}

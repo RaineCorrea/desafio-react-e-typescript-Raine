@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+  footer .footer-links__wrapper {
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    row-gap: 2.4rem;
+    column-gap: normal;
+    padding: 3rem 3rem 2.5rem;
+  }
+
+  footer .footer-links__column {
+    width: 100%;
+  }
+
+  footer .footer-mobile-mais {
+    padding-left: 5rem;
+  }
+  footer .duvidas {
+    padding-left: 8.5rem;
+  }
+
+  /*footer 2 */
+  footer .footer-infos__labels {
+    align-items: initial;
+    flex-direction: column;
+    justify-content: normal;
+    padding: 1.6rem 0 1.2rem 1.6rem;
+  }
+
+  footer .footer-infos-company {
+    padding: 2.4rem 0 0 0;
+    justify-content: normal;
+  }
+
+  footer .footer-links__bandeiras {
+    margin-right: 0.8rem;
+  }
+
+  footer .payment {
+    width: 3rem;
+    height: 1.6rem;
+  }
+
+  footer .footer-infos__payment {
+    padding: 0 0 1.6rem 0;
+    gap: 0.8rem;
+  }
+
+  footer .footer-infos__divider {
+    height: 2rem;
+  }
+
+  footer .vtexPCI {
+    width: 4.5rem;
+    height: 2.8rem;
+  }
+
+  footer .footer-infos-text {
+    width: initial;
+  }
+  .footer-links__social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer .footer-links__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer .footer-links__bandeiras {
+    margin-right: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  footer .vtexPCI {
+    width: 3rem;
+    height: 1.6rem;
+  }
+
+  footer .footer-infos__payment {
+    padding-left: 4px;
+    gap: 0.4rem;
+  }
+
+  footer .footer-infos__labels {
+    padding: 1.6rem 0 1.2rem 0;
+  }
+
+  footer .footer-infos__devlopment {
+    padding: 0 0 0 2rem;
+  }
+}

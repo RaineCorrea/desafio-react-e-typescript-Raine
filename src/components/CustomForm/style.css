@@ -1,0 +1,148 @@
+.form-wrapper {
+  width: 100%;
+  max-width: 39.2rem;
+  min-height: 70rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper form {
+  width: 100%;
+}
+
+.form-wrapper__title {
+  font-family: var(--main-font);
+  font-size: 2.4rem;
+  line-height: 2.3rem;
+  margin: 0 0 3.4rem 0;
+
+  color: var(--color-black-600);
+}
+
+.form-wrapper h2,
+h1 {
+  text-align: center;
+}
+
+.form-col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.2rem;
+}
+
+.form-col input::placeholder {
+  font-family: var(--main-font);
+  color: var(--color-gray);
+
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+
+  margin: 1.1rem auto 1rem 2.8rem;
+}
+
+.form-col label {
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+
+  color: var(--color-black-400);
+
+  margin: 1rem 0 0.4rem 1.5rem;
+}
+
+.form-col input {
+  width: 36.6rem;
+  height: 4.7rem;
+  border-radius: 2.5rem;
+  border: 1px solid var(--color-black-700);
+  outline: 0;
+
+  padding: 0 1.2rem;
+
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+}
+
+.form-col input.invalid {
+  border-color: #c70039;
+}
+
+.form-wrapper button {
+  width: 100%;
+  width: 39rem;
+  height: 5.2rem;
+
+  border: none;
+  background-color: var(--color-blue-500);
+  border-radius: 2.6rem;
+  cursor: pointer;
+
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 3.4rem;
+  margin-top: 2.1rem;
+  margin-bottom: 11.8rem;
+
+  color: #ffffff;
+}
+
+.form-wrapper button:hover {
+  filter: brightness(80%);
+}
+
+.form-tandc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-tandc label {
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+
+.form-tandc__title {
+  color: var(--color-blue-500);
+}
+
+.form-tandc input {
+  align-self: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+
+  border: 1px solid var(--color-black-800);
+  border-radius: 0.3rem;
+}
+
+.form-invalid-feedback-tandc {
+  margin-left: 30%;
+}
+
+.form-invalid-feedback {
+  position: absolute;
+  bottom: 0;
+  font-family: var(--main-font);
+  font-size: 1.2rem;
+
+  transform: translateY(6px);
+  left: 1rem;
+
+  color: var(--color-red-500);
+}
+
+@media screen and (max-width: 768px) {
+  .form-col input {
+    width: inherit;
+  }
+
+  .form-wrapper button {
+    width: inherit;
+  }
+}

@@ -1,0 +1,15 @@
+.form-wrapper__subtitle {
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  margin: 12.4rem 0 5.1rem 0;
+
+  color: var(--color-black-400);
+}
+
+@media screen and (max-width: 768px) {
+  .form-wrapper__subtitle {
+    margin: 3.3rem 0 2.3rem 0;
+  }
+}

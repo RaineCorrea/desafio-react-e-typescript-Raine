@@ -1,0 +1,24 @@
+.contato {
+  display: flex;
+}
+
+.container-contato {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  max-width: 1280px;
+  margin-bottom: 19rem;
+}
+
+.contato-navigation {
+  margin-top: 16rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container-contato {
+    flex-direction: column;
+  }
+  .contato-navigation {
+    margin-top: 2.3rem;
+  }
+}
